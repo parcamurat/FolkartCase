@@ -1,0 +1,107 @@
+.navbar {
+    opacity: 1;
+    border-bottom: 1px solid #fff;
+}
+
+#header {
+    padding-top: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    border-radius: 0 !important;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+#rowDinamic {
+    width: 99%;
+}
+
+#thumbnail05{
+    width: 700px;
+    height: 400px;
+}
+
+#ProjectProp {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1150px;
+    border-radius: 0 !important;
+}
+
+#ProjectPropImage{
+    width: 450px;
+    height: 560px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Contact{
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#name{
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #979797;
+    color: #707070;
+}
+
+#surname{
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #979797;
+    color: #707070;
+}
+
+#mail{
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #979797;
+    color: #707070;
+}
+
+#phone{
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #979797;
+    color: #707070;
+}
+
+@media(max-width: 768px){
+    #LocationIcon, #ProjectPropImage, #PhoneIcon{
+        display: none;
+    }
+    #Contact{
+        height: 1000px;
+    }
+    #footer{
+        text-align: center;
+    }
+    #smallLogo{
+        margin-top: 30px;
+    }
+    #pd{
+        height: 300px !important;
+    }
+    #unVisible{
+        display: none;
+    }
+    #wm{
+        margin-top: 120px;
+        margin-left: 0px;
+        visibility: visible !important;
+    }
+    #btn-m{
+        margin-top: 20px;
+    }
+
+}
